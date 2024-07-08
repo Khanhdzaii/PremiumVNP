@@ -15,11 +15,11 @@ local Tab1 = Window:MakeTab({
 })
 
 local Section = Tab1:AddSection({
-	Name = "GetItem"
+	Name = "Kill Aura"
 })
 
 Tab1:AddButton({
-	Name = "GetAllItem",
+	Name = "Kill all mob",
 	Callback = function(z)
       		game.Players.LocalPlayer:Kick("Hack Lồn mẹ mày cút")
 end
